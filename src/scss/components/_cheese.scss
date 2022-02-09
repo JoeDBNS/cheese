@@ -1,0 +1,62 @@
+.cheese {
+    position: absolute;
+    width: 200px;
+    opacity: 0;
+    user-select: none;
+    transform: rotate(0deg);
+    transition: linear opacity 200ms;
+}
+
+.cheese-twist {
+    opacity: 1;
+    animation-name: cheese_twist;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.cheese-flow {
+    opacity: 1;
+    animation-name: cheese_flow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cheese_twist {
+    0% {
+        transform: rotate(-75deg);
+    }
+    50% {
+        transform: rotate(75deg);
+    }
+    100% {
+        transform: rotate(-75deg);
+    }
+}
+
+@keyframes cheese_flow {
+    0% {
+        top: 0px;
+        left: 0px;
+        transform: rotate(0deg);
+    }
+    25% {
+        top: 100px;
+        left: 100px;
+        transform: rotate(-90deg);
+    }
+    50% {
+        top: 200px;
+        left: 200px;
+        transform: rotate(0deg);
+    }
+    75% {
+        top: 100px;
+        left: 100px;
+        transform: rotate(90deg);
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+        transform: rotate(0deg);
+    }
+}
