@@ -1,0 +1,25 @@
+{
+  "name": "cheese",
+  "version": "1.0.0",
+  "description": "Template that allows for easy configuring and displays example section types from standard web apps.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeDBNS/cheese.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeDBNS/cheese/issues"
+  },
+  "homepage": "https://github.com/JoeDBNS/cheese#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.7"
+  }
+}
