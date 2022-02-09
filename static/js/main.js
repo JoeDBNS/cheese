@@ -7,6 +7,8 @@ window.addEventListener('load', function () {
 });
 
 function StartCheeseFollow() {
+    document.querySelector('button').style.opacity = '0';
+
     var cheese = document.querySelector('.cheese');
 
     cheese.classList.add('cheese-twist');
